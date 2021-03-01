@@ -614,6 +614,14 @@ sacctmgr add user tux Account=nuremberg
                     </para>
                   </listitem>
                 </varlistentry>
+                <varlistentry>
+                  <term><command>--account=<replaceable>NAME</replaceable></command></term>
+                  <listitem>
+                    <para>
+                      use the account <replaceable>NAME</replaceable> instead of the default account of a user, when the user has access to several accounts.
+                    </para>
+                  </listitem>
+                </varlistentry>
               </variablelist>
             </listitem>
         </varlistentry>
